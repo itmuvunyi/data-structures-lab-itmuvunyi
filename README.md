@@ -1,57 +1,101 @@
+# Data Structures Implementation Lab
+## Enterprise Web Development - Week 3 Assignment
+
+---
+
+## Overview
+
+This project focuses on implementing fundamental **data structures** in Python from scratch, including **Stack**, **Queue**, and **LinkedList**. The goal is to:
+
+- Build a working data structure
+- Write comprehensive **unit tests**
+- Analyze **time and space complexity**
+- Demonstrate practical use cases in **enterprise web development**
+
+This lab provides hands-on experience with algorithmic thinking, Python programming, and best practices for testing and documentation.
+
+---
+
+## Repository Structure
+
+data-structures-lab/
+├── README.md
+├── requirements.txt
+├── .github/
+│ └── workflows/
+│ └── test.yml # GitHub Actions workflow for automated testing
+├── src/
+│ ├── init.py
+│ ├── stack.py # Stack implementation (LIFO)
+│ ├── queue.py # Queue implementation (FIFO)
+│ └── linked_list.py # Linked List implementation
+├── tests/
+│ ├── init.py
+│ ├── test_stack.py
+│ ├── test_queue.py
+│ └── test_linked_list.py
+├── docs/
+│ └── COMPLEXITY_ANALYSIS.md
+└── examples/
+  └── demo.py
+
 
 ---
 
 ## Learning Objectives
-- Implement a core data structure from scratch in **Python**
-- Analyze and document **time complexity**
-- Write unit tests with **pytest**
-- Connect implementation to **enterprise web development scenarios**
-- Practice **Git workflow** and documentation
+
+By completing this project:
+
+- Implement a core data structure from scratch in Python
+- Analyze and document **time and space complexity**
+- Write **unit tests** for all standard operations and edge cases
+- Explore **enterprise web development use cases**
+- Practice professional **Git workflow and documentation**
 
 ---
 
-## Assignment Overview
+## Choosing a Data Structure
 
-### Step 1: Choose Your Data Structure
-Select **ONE** structure to implement:
+Select **one** data structure to implement:
 
-- **Stack (LIFO)** – Browser history, undo operations  
-- **Queue (FIFO)** – Request handling, messaging systems  
-- **Linked List** – Dynamic memory, implementing other structures  
+| Structure     | Type | Example Use Case |
+|---------------|------|----------------|
+| Stack         | LIFO | Browser history, undo operations, function call management |
+| Queue         | FIFO | Print jobs, request handling, BFS traversal |
+| LinkedList    | Dynamic | Dynamic collections, building other data structures |
 
-⚠️ Only implement the one you choose. Leave other files as starter templates.
-
----
-
-### Step 2: Implementation
-Complete your chosen data structure in `/src/` using the provided templates and TODO comments.
+> Only implement the structure you choose. Other templates remain as starter files.
 
 ---
 
-### Step 3: Testing & Documentation
-- Run and complete tests with **pytest**  
-- Fill out **complexity analysis** in `COMPLEXITY_ANALYSIS.md`  
-- Update README with chosen structure  
+## Setup Instructions
 
----
+### 1. Clone Repository
 
-### Step 4: Submission
-- Commit changes with clear messages  
-- Push to repository  
-
----
-
-## Getting Started
-
-### 1. Clone Assignment
 ```bash
-git clone https://github.com/your-classroom-org/data-structures-lab-username.git
-cd data-structures-lab-username
+git clone https://github.com/yourusername/data-structures-lab.git
+cd data-structures-lab
+```
 
-## Set Up Environment
+## Create and Activate Virtual Environment
 ```
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+## Install Dependencies
+```
 pip install -r requirements.txt
 ```
+## Running Tests
+```
+pytest tests/ -v
+```
+## My Implementation
+```bash
+Chosen Data Structure: LinkedList
+Enterprise Use Case: Managing dynamic queues of user requests in a web application
+Key Insight: LinkedList allows O(1) insertion and deletion without shifting elements, making it efficient for dynamic collections.
+---
+
+
+
 
