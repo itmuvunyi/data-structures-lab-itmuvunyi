@@ -65,7 +65,7 @@ Select **one** data structure to implement:
 | Queue         | FIFO | Print jobs, request handling, BFS traversal |
 | LinkedList    | Dynamic | Dynamic collections, building other data structures |
 
-> Only implement the structure you choose. Other templates remain as starter files.
+>
 
 ---
 
@@ -74,8 +74,8 @@ Select **one** data structure to implement:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/data-structures-lab.git
-cd data-structures-lab
+git clone https://github.com/yourusername/data-structures-lab-itmuvunyi.git
+cd data-structures-lab-itmuvunyi
 ```
 
 ## Create and Activate Virtual Environment
