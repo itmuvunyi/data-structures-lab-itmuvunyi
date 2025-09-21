@@ -18,7 +18,7 @@ This lab provides hands-on experience with algorithmic thinking, Python programm
 
 ## Repository Structure
 ```bash
-data-structures-lab/
+data-structures-lab-itmuvunyi/
 ├── README.md
 ├── requirements.txt
 ├── .github/
