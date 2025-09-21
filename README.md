@@ -17,7 +17,7 @@ This lab provides hands-on experience with algorithmic thinking, Python programm
 ---
 
 ## Repository Structure
-
+```bash
 data-structures-lab/
 ├── README.md
 ├── requirements.txt
@@ -38,6 +38,7 @@ data-structures-lab/
 │ └── COMPLEXITY_ANALYSIS.md
 └── examples/
   └── demo.py
+```
 
 
 ---
